@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { map, ReplaySubject } from "rxjs";
-import { UserDTO } from "../DTOs/UserDTO";
-import { ResponseResult } from '../DTOs/common/ResponseResult';
+import { UserDTO } from "../dtos/UserDTO";
+import { ResponseResult } from '../dtos/common/ResponseResult';
 
 @Injectable({
   providedIn: 'root'
@@ -20,9 +20,9 @@ export class AccountService {
     return this.httpClient.post(`${this.baseUrl}account/login`, model).pipe(map((response) => {
 
       var responseResult = <ResponseResult>response;
-    
+
       const user: UserDTO = <UserDTO>responseResult.data;
-     
+
       if (user) {
         localStorage.setItem('user', JSON.stringify(user));
         this.currentUserSource.next(user);

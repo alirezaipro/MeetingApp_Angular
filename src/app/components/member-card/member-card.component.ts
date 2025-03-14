@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
+import { MemberDTO } from 'src/app/dtos/member/MemberDTO';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { UserDTO } from '../DTOs/UserDTO';
-import { AccountService } from '../services/account.service';
-import LoginDTO from "../DTOs/account/LoginDTO";
+import { UserDTO } from '../../dtos/UserDTO';
+import { AccountService } from '../../services/account.service';
+import LoginDTO from "../../dtos/account/LoginDTO";
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { ResponseResult } from '../DTOs/common/ResponseResult';
+import { ResponseResult } from '../../dtos/common/ResponseResult';
 
 @Component({
     selector: 'app-nav',

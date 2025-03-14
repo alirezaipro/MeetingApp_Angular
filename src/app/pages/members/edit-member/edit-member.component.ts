@@ -2,8 +2,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
 import { take } from 'rxjs';
-import { UserDTO } from 'src/app/DTOs/UserDTO';
-import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
+import { UserDTO } from 'src/app/dtos/UserDTO';
+import { MemberDTO } from 'src/app/dtos/member/MemberDTO';
 import { AccountService } from 'src/app/services/account.service';
 import { MemberService } from 'src/app/services/member.service';
 

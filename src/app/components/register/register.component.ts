@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { AccountService } from '../services/account.service';
-import RegisterDTO from '../DTOs/account/RegisterDTO';
+import { AccountService } from '../../services/account.service';
+import RegisterDTO from '../../dtos/account/RegisterDTO';
 import { AbstractControl, FormBuilder, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { take } from 'rxjs';
-import { UserDTO } from 'src/app/DTOs/UserDTO';
-import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
-import { Pagination } from 'src/app/DTOs/pagination';
-import { UserParams } from 'src/app/DTOs/userParams';
+import { UserDTO } from 'src/app/dtos/UserDTO';
+import { MemberDTO } from 'src/app/dtos/member/MemberDTO';
+import { Pagination } from 'src/app/dtos/pagination';
+import { UserParams } from 'src/app/dtos/userParams';
 import { AccountService } from 'src/app/services/account.service';
 import { MemberService } from 'src/app/services/member.service';
 

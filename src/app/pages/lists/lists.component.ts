@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MemberDTO } from '../DTOs/member/MemberDTO';
-import { MemberService } from '../services/member.service';
+import { MemberDTO } from '../../dtos/member/MemberDTO';
+import { MemberService } from '../../services/member.service';
 
 @Component({
     selector: 'app-lists',

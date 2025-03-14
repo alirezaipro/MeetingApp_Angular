@@ -4,19 +4,19 @@ import { HTTP_INTERCEPTORS, provideHttpClient, withInterceptorsFromDi } from '@a
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { RegisterComponent } from './register/register.component';
-import { HomeComponent } from "./home/home.component";
-import { MemberListComponent } from './members/member-list/member-list.component';
-import { MemberDetailComponent } from './members/member-detail/member-detail.component';
-import { ListsComponent } from './lists/lists.component';
-import { MessageComponent } from './message/message.component';
+import { NavComponent } from './components/nav/nav.component';
+import { RegisterComponent } from './components/register/register.component';
+import { HomeComponent } from "./pages/home/home.component";
+import { MemberListComponent } from './pages/members/member-list/member-list.component';
+import { MemberDetailComponent } from './pages/members/member-detail/member-detail.component';
+import { ListsComponent } from './pages/lists/lists.component';
+import { MessageComponent } from './pages/message/message.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ToastrModule } from 'ngx-toastr';
-import { MemberCardComponent } from './members/member-card/member-card.component';
+import { MemberCardComponent } from './pages/members/member-card/member-card.component';
 import { JwtInterceptor } from './interceptors/jwt.interceptor';
 // import { NgxGalleryModule } from '@kolkov/ngx-gallery';
-import { EditMemberComponent } from './members/edit-member/edit-member.component';
+import { EditMemberComponent } from './pages/members/edit-member/edit-member.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './interceptors/loading.interceptor';
 import {PaginationModule} from 'ngx-bootstrap/pagination';

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import {Component, OnInit} from '@angular/core';
-import {UserDTO} from "./DTOs/UserDTO";
+import {UserDTO} from "./dtos/UserDTO";
 import {AccountService} from "./services/account.service";
 
 @Component({

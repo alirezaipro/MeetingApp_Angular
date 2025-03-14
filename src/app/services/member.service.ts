@@ -1,9 +1,9 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { MemberDTO } from '../DTOs/member/MemberDTO';
+import { MemberDTO } from '../dtos/member/MemberDTO';
 import { map } from 'rxjs';
-import { PaginationResult } from '../DTOs/pagination';
-import { UserParams } from '../DTOs/userParams';
+import { PaginationResult } from '../dtos/pagination';
+import { UserParams } from '../dtos/userParams';
 
 @Injectable({
   providedIn: 'root'

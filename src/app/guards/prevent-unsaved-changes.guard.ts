@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
-import { EditMemberComponent } from '../members/edit-member/edit-member.component';
+import { EditMemberComponent } from '../pages/members/edit-member/edit-member.component';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ import { EditMemberComponent } from '../members/edit-member/edit-member.componen
 export class PreventUnsavedChangesGuard  {
 
   canDeactivate(component: EditMemberComponent): boolean {
-  
+
     if(component.editForm.dirty){
       return confirm('آیا از انجام کار مطمئن هستید؟');
     }

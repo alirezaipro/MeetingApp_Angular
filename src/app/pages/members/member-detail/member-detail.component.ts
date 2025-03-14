@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
+import { MemberDTO } from 'src/app/dtos/member/MemberDTO';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({
