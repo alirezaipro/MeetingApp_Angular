@@ -8,9 +8,10 @@ import { ToastrService } from 'ngx-toastr';
 import { ResponseResult } from '../DTOs/common/ResponseResult';
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+    selector: 'app-nav',
+    templateUrl: './nav.component.html',
+    styleUrls: ['./nav.component.css'],
+    standalone: false
 })
 export class NavComponent implements OnInit {
 

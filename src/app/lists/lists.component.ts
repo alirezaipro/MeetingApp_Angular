@@ -3,9 +3,10 @@ import { MemberDTO } from '../DTOs/member/MemberDTO';
 import { MemberService } from '../services/member.service';
 
 @Component({
-  selector: 'app-lists',
-  templateUrl: './lists.component.html',
-  styleUrls: ['./lists.component.css']
+    selector: 'app-lists',
+    templateUrl: './lists.component.html',
+    styleUrls: ['./lists.component.css'],
+    standalone: false
 })
 export class ListsComponent implements OnInit {
 

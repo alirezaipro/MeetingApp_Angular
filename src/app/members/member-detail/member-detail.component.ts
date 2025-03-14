@@ -4,9 +4,10 @@ import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({
-  selector: 'app-member-detail',
-  templateUrl: './member-detail.component.html',
-  styleUrls: ['./member-detail.component.css']
+    selector: 'app-member-detail',
+    templateUrl: './member-detail.component.html',
+    styleUrls: ['./member-detail.component.css'],
+    standalone: false
 })
 
 export class MemberDetailComponent implements OnInit {

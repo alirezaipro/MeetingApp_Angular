@@ -8,9 +8,10 @@ import { AccountService } from 'src/app/services/account.service';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({
-  selector: 'app-member-list',
-  templateUrl: './member-list.component.html',
-  styleUrls: ['./member-list.component.css']
+    selector: 'app-member-list',
+    templateUrl: './member-list.component.html',
+    styleUrls: ['./member-list.component.css'],
+    standalone: false
 })
 
 export class MemberListComponent implements OnInit {

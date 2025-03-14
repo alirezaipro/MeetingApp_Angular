@@ -4,9 +4,10 @@ import { MemberDTO } from 'src/app/DTOs/member/MemberDTO';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({
-  selector: 'app-member-card',
-  templateUrl: './member-card.component.html',
-  styleUrls: ['./member-card.component.css']
+    selector: 'app-member-card',
+    templateUrl: './member-card.component.html',
+    styleUrls: ['./member-card.component.css'],
+    standalone: false
 })
 export class MemberCardComponent implements OnInit {
   @Input() member: MemberDTO;

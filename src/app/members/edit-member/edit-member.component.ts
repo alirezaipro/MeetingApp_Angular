@@ -8,9 +8,10 @@ import { AccountService } from 'src/app/services/account.service';
 import { MemberService } from 'src/app/services/member.service';
 
 @Component({
-  selector: 'app-edit-member',
-  templateUrl: './edit-member.component.html',
-  styleUrls: ['./edit-member.component.css']
+    selector: 'app-edit-member',
+    templateUrl: './edit-member.component.html',
+    styleUrls: ['./edit-member.component.css'],
+    standalone: false
 })
 export class EditMemberComponent implements OnInit {
 
